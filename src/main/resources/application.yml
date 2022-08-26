@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: eureka server
+server:
+  port: 8761
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+
+info:
+  app:
+    name: Eureka Server
+    description: This is a Eureka Server - a spring boot application
+    version: 1.0.0
